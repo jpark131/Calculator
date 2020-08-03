@@ -10,5 +10,3 @@ addons:
 script:
   -ant build
   -sonar-scanner
-  
-dist: trusty
