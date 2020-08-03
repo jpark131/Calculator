@@ -8,7 +8,7 @@ addons:
     token: 84c442e854d52e57f2ac8712ea9084e6a5544304
     
 script:
-  -ant build
-  -sonar-scanner
+  ant build
+  sonar-scanner
   
 dist: trusty
