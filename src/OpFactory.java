@@ -14,6 +14,7 @@ public class OpFactory {
 			break;
 		case "/":
 			operation = new Div();
+			break;
 		case "logleft":
 			operation = new LogLeft();
 			break;
